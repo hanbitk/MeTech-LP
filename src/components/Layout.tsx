@@ -7,7 +7,7 @@ function Layout() {
   return (
     <div className="border">
       <Header />
-      <main className="h-screen pt-20">
+      <main className="h-screen">
         <Outlet />
       </main>
       <Footer />

@@ -12,7 +12,11 @@ module.exports = {
       ligthGray: "#E8E8E8",
       whiteGray: "#F4F4F4",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url('./assets/hero/hero-bg.jpg')",
+      },
+    },
   },
   plugins: [],
 };
