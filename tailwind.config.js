@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
+import cow from "./src/assets/section/grass.jpg";
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     colors: {
       white: "#ffffff",
+      offWhite: "#FAFAFA",
       black: "#000000",
       darkGreen: "#00573F",
       lightGreen: "#90B54C",
@@ -15,6 +17,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('./assets/hero/hero-bg.jpg')",
+        grass: "url('./assets/section/grass.jpg')",
       },
     },
   },

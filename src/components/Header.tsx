@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import whiteLogo from "../assets/header/white-logo.svg";
+import WhiteLogo from "../assets/header/white-logo.svg";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
       <div className="w-52 cursor-pointer" onClick={() => navigate("/")}>
         <img
           className="object-cover"
-          src={whiteLogo}
+          src={WhiteLogo}
           alt="White Cattle MeTech's Logo"
         />
       </div>
