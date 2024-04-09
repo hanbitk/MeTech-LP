@@ -8,7 +8,7 @@ function News() {
       {PRESS_RELEASES.map((release, idx) => {
         return (
           <div key={idx} className="w-3/4 flex flex-col gap-4">
-            <h2 className="text-xl font-semibold underline underline-offset-4 hover:text-darkGreen">
+            <h2 className="text-xl font-semibold cursor-default underline underline-offset-4 hover:text-darkGreen">
               {release.title}
             </h2>
             <p className="text-darkGray text-sm">

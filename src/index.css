@@ -15,3 +15,13 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+input,
+textarea {
+  @apply border bg-black p-2 rounded-xl placeholder:text-sm;
+  @layer placeholder:text-ligthGreen;
+}
+
+section {
+  @apply flex flex-col justify-center items-center;
+}

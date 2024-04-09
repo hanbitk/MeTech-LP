@@ -1,22 +1,24 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import YoutubeEmbed from "../components/YoutubeEmbed";
 import Button from "../components/Button";
+import News from "../components/News";
 import BlackCattle from "../assets/section/Black_cattle.png";
 import BlackCar from "../assets/section/Black_car.png";
 import CattleMethane from "../assets/section/cattle_methane_process.png";
 import GreenLogo from "../assets/section/green-logo.svg";
 import Capsule from "../assets/section/Methane_capsule.png";
-import News from "../components/News";
+import Partners from "../components/Partners";
+import Form from "../components/Form";
 
 function Home() {
   const navigate = useNavigate();
   return (
     <main>
       <Hero />
-      {/* Section 1.1 */}
-      <section className="bg-offWhite flex flex-col justify-center items-center py-16">
+      {/* Section 1.1 - Did You Know? */}
+      <section className="bg-offWhite py-16">
         <div className="flex flex-col justify-between items-center text-center">
           <div>
             <h1 className="text-6xl text-darkGreen font-black uppercase mb-5">
@@ -52,43 +54,45 @@ function Home() {
         </div>
       </section>
 
-      {/* Section 1.1.2 */}
-      <section className="bg-grass bg-cover bg-no-repeat flex items-center p-20 text-white">
-        <div className="w-[45%] flex flex-col items-center">
-          <div className="w-[350px] h-[250px]">
-            <img
-              className="object-cover"
-              src={CattleMethane}
-              alt="Cattle Methane Process"
-            />
+      {/* Section 1.1.2 - Methane Gas Emissions */}
+      <section>
+        <div className="bg-grass bg-cover bg-no-repeat flex items-center p-20 text-white">
+          <div className="w-[45%] flex flex-col items-center">
+            <div className="w-[350px] h-[250px]">
+              <img
+                className="object-cover"
+                src={CattleMethane}
+                alt="Cattle Methane Process"
+              />
+            </div>
+            <p className="w-[350px] text-xs text-center">
+              Image Resources : MDPI/ Management of Enteric Methane Emissions in
+              Ruminants Using Feed Additives: A Review
+            </p>
           </div>
-          <p className="w-[350px] text-xs text-center">
-            Image Resources : MDPI/ Management of Enteric Methane Emissions in
-            Ruminants Using Feed Additives: A Review
-          </p>
-        </div>
-        <div className="w-[50%] flex flex-col items-center p-2">
-          <p>
-            Livestock are a major contributor to greenhouse gas emissions,
-            responsible for a staggering 18% of the total. Methane, a byproduct
-            of their digestive process, is over 80 times more potent than carbon
-            dioxide in warming the planet over a 20-year period, according to
-            the UN Economic Commission.
-          </p>
-          <br />
-          <p>
-            With approximately 1.5 billion cows globally, each capable of
-            emitting up to 500 liters (132 gallons) of methane daily, the scale
-            of the issue is undeniable. Not to mention, livestock urine adds to
-            the problem by releasing nitrous oxide, another potent climate
-            pollutant. Join us in finding sustainable solutions to combat these
-            pressing environmental challenges.
-          </p>
+          <div className="w-[50%] flex flex-col items-center p-2">
+            <p>
+              Livestock are a major contributor to greenhouse gas emissions,
+              responsible for a staggering 18% of the total. Methane, a
+              byproduct of their digestive process, is over 80 times more potent
+              than carbon dioxide in warming the planet over a 20-year period,
+              according to the UN Economic Commission.
+            </p>
+            <br />
+            <p>
+              With approximately 1.5 billion cows globally, each capable of
+              emitting up to 500 liters (132 gallons) of methane daily, the
+              scale of the issue is undeniable. Not to mention, livestock urine
+              adds to the problem by releasing nitrous oxide, another potent
+              climate pollutant. Join us in finding sustainable solutions to
+              combat these pressing environmental challenges.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Section 1.2 */}
-      <section className="w-full h-screen flex flex-col justify-center items-center text-center">
+      {/* Section 1.2 - About */}
+      <section className="w-full h-screen text-center">
         <div className="h-2/3 flex flex-col justify-center items-center">
           <div className="flex flex-col gap-5 items-center">
             <div className="w-[30rem]">
@@ -116,8 +120,8 @@ function Home() {
         </div>
       </section>
 
-      {/* Section 1.3 */}
-      <section className="bg-darkGreen w-full h-screen flex flex-col justify-center items-center text-center">
+      {/* Section 1.3 - Service */}
+      <section className="bg-darkGreen w-full h-screen text-center">
         <div className="h-[80%] flex flex-col justify-center items-center">
           <div className="flex flex-col gap-5 items-center">
             <div>
@@ -152,8 +156,8 @@ function Home() {
         </div>
       </section>
 
-      {/* Section 1.4 */}
-      <section className="w-full h-screen bg-offWhite flex flex-col justify-center items-center p-20">
+      {/* Section 1.4 - Releases */}
+      <section className="w-full h-screen bg-offWhite p-20">
         <div className="w-full h-full flex flex-col justify-between">
           <div className="flex h-[90%] justify-between">
             <div className="border-lightGreen border-r-2 w-[20%] h-full flex justify-center items-center">
@@ -176,6 +180,49 @@ function Home() {
                 All Releases
               </Button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 1.5 - Partners */}
+      <section className="w-full h-screen bg-whiteGray p-20">
+        <div className="h-full flex flex-col justify-between items-center">
+          <div className="justify-between">
+            <h1 className="text-5xl text-darkGreen font-semibold uppercase">
+              Our Partners & Research
+            </h1>
+          </div>
+          <div className="h-[80%] flex flex-col justify-around items-center">
+            <Partners />
+          </div>
+        </div>
+      </section>
+
+      {/* Section 1.6 - Contact */}
+      <section className="w-full h-screen bg-black text-white p-20">
+        <div className="w-full h-full flex flex-col justify-between">
+          <div>
+            <h1 className="text-5xl font-semibold uppercase mb-4">
+              Contact Us
+            </h1>
+          </div>
+          <div className="h-full flex justify-between">
+            {/* Company Location */}
+            <div className="w-[45%] flex justify-center items-center">
+              <iframe
+                className="rounded-xl grayscale saturate-50"
+                title="MeTechHoldings Inc., Co."
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.804666949623!2d127.0562444753837!3d37.51252492722422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca46b26c1760b%3A0x98214780621041f2!2s524%20Bongeunsa-ro%2C%20Gangnam-gu%2C%20Seoul!5e0!3m2!1spt-BR!2skr!4v1712569993043!5m2!1spt-BR!2skr"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+              >
+                MeTech
+              </iframe>
+            </div>
+            {/* Contact Form */}
+            <Form />
           </div>
         </div>
       </section>

@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-import cow from "./src/assets/section/grass.jpg";
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
@@ -13,6 +12,7 @@ module.exports = {
       darkGray: "#424242",
       ligthGray: "#E8E8E8",
       whiteGray: "#F4F4F4",
+      red: "#FF0000",
     },
     extend: {
       backgroundImage: {
