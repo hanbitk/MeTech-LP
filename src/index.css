@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 #root {
-  @apply w-full max-w-screen-2xl mx-auto my-0;
+  @apply w-full mx-auto my-0;
+  @layer max-w-screen-[1900px];
 }
 
 * {

@@ -56,7 +56,7 @@ function Home() {
 
       {/* Section 1.1.2 - Methane Gas Emissions */}
       <section>
-        <div className="bg-grass bg-cover bg-no-repeat flex items-center p-20 text-white">
+        <div className="w-full bg-grass bg-cover bg-no-repeat flex items-center p-20 text-white">
           <div className="w-[45%] flex flex-col items-center">
             <div className="w-[350px] h-[250px]">
               <img
