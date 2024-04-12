@@ -4,6 +4,7 @@ export const PATH_URL = {
   ABOUT: "/about",
   SERVICE: "/service",
   RELEASE: "/releases",
+  CONTACT: "/contact",
 };
 
 export const NAVBAR_TABS = [
@@ -46,16 +47,16 @@ export const FOOTER_NAVBAR_TABS = [
     title: "About",
     to: "/about",
     description: {
-      one: "Our Company",
-      two: "Methane Capsule",
+      one: "About Us",
+      two: "Our Mission",
     },
   },
   {
     title: "Service",
     to: "/service",
     description: {
-      one: "Our Company",
-      two: "Methane Capsule",
+      one: "Our Service",
+      two: "Methane Capsule RAW-DATA",
     },
   },
   {
@@ -65,6 +66,22 @@ export const FOOTER_NAVBAR_TABS = [
       one: "Latest News",
     },
   },
+];
+
+export const HISTORY_LIST = [
+  { date: "'24.02.28", title: "USA-Arkeabio export contract signed" },
+  { date: "'24.11.20", title: "USA-USDA joint R&D and export contract signed" },
+  { date: "'23.11.01", title: "Australia Rumin8 contract signed" },
+  {
+    date: "'23.04.01",
+    title: "Methane reduction capsule development completed",
+  },
+  { date: "'23.02.28", title: "Conversion to corporation established" },
+  {
+    date: "'23.01.20",
+    title: "Methane reduction capsule development completed",
+  },
+  { date: "'22.12.22", title: "Business (sole proprietorship) registration" },
 ];
 
 // Input, Textarea Prop Types

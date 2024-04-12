@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Service from "../pages/Service";
 import Releases from "../pages/Releases";
+import Contact from "../pages/Contact";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
           <Route path={PATH_URL.ABOUT} element={<About />} />
           <Route path={PATH_URL.SERVICE} element={<Service />} />
           <Route path={PATH_URL.RELEASE} element={<Releases />} />
+          <Route path={PATH_URL.CONTACT} element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

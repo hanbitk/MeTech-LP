@@ -18,6 +18,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('./assets/hero/hero-bg.jpg')",
         grass: "url('./assets/section/grass.jpg')",
+        aboutHero: "url('./assets/about/about-hero.jpg')",
       },
     },
   },
