@@ -15,6 +15,7 @@ function FooterNavBar() {
             <ul className="text-white text-sm font-light">
               <li>{tab.description?.one}</li>
               <li>{tab.description?.two}</li>
+              <li>{tab.description?.three}</li>
             </ul>
           </div>
         );

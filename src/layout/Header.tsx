@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import WhiteLogo from "../assets/header/white-logo.svg";
 import { useNavigate } from "react-router-dom";
 

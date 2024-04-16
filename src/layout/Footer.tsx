@@ -1,6 +1,6 @@
 import React from "react";
-import FooterNavBar from "./FooterNavBar";
-import Location from "./Location";
+import FooterNavBar from "../components/FooterNavBar";
+import Location from "../components/Location";
 import WhiteLogo from "../assets/footer/white_logo.svg";
 
 function Footer() {

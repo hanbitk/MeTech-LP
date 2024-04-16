@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { PATH_URL } from "../utils/constants";
-import Layout from "../components/Layout";
+import Layout from "../layout/Layout";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Service from "../pages/Service";

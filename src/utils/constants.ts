@@ -49,14 +49,16 @@ export const FOOTER_NAVBAR_TABS = [
     description: {
       one: "About Us",
       two: "Our Mission",
+      three: "History",
     },
   },
   {
     title: "Service",
     to: "/service",
     description: {
-      one: "Our Service",
-      two: "Methane Capsule RAW-DATA",
+      one: "Methane Capsule Service",
+      two: "Capsule H/W & S/W",
+      three: "Global Low-Carbon & Carbon Credits Platform",
     },
   },
   {
@@ -82,6 +84,33 @@ export const HISTORY_LIST = [
     title: "Methane reduction capsule development completed",
   },
   { date: "'22.12.22", title: "Business (sole proprietorship) registration" },
+];
+
+export const CAPSULE_SPECS = [
+  {
+    title: "CH4",
+    description: "0~150,000 ppm temperature, acceleration sensor basic",
+  },
+  {
+    title: "Size",
+    description: "110mm x 38mm",
+  },
+  {
+    title: "Material",
+    description: "Polypropylene Material",
+  },
+  {
+    title: "Battery Life",
+    description: "Max 1.5 years",
+  },
+  {
+    title: "IP68",
+    description: "Completely Waterproof",
+  },
+  {
+    title: "Network",
+    description: "LoRa 868 to 928 MHz",
+  },
 ];
 
 // Input, Textarea Prop Types
