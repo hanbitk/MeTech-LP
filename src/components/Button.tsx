@@ -6,6 +6,8 @@ interface IButtonProps {
   bg?: string;
   hoverTextColor?: string;
   alignItem?: string;
+  flex?: string;
+  flexCol?: string;
 }
 
 function Button({
@@ -14,9 +16,11 @@ function Button({
   bg,
   hoverTextColor,
   alignItem,
+  flex,
+  flexCol,
 }: IButtonProps) {
   return (
-    <div className="w-full">
+    <div className={`w-full ${flex} ${flexCol}`}>
       <button
         className={`w-[200px] ${alignItem} p-3 rounded-3xl ${bg} font-semibold text-base text-white ${hoverTextColor}`}
         onClick={onClick}

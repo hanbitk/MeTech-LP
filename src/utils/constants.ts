@@ -23,7 +23,7 @@ export const NAVBAR_TABS = [
   },
   {
     title: "Contact",
-    path: "/contact", // Contact path to be decided
+    path: "/contact",
   },
 ];
 
@@ -36,10 +36,10 @@ export const LOCATION = [
     country: "Singapore",
     address: "10 Anson Road #34-10 International Plaza, 079903, Singapore",
   },
-  {
-    country: "United States",
-    address: "524, Bongeunsa-ro, Gangnam-gu, Seoul, 06164, Republic of Korea",
-  },
+  // {
+  //   country: "United States",
+  //   address: "524, Bongeunsa-ro, Gangnam-gu, Seoul, 06164, Republic of Korea",
+  // },
 ];
 
 export const FOOTER_NAVBAR_TABS = [
@@ -56,9 +56,9 @@ export const FOOTER_NAVBAR_TABS = [
     title: "Service",
     to: "/service",
     description: {
-      one: "Methane Capsule Service",
-      two: "Capsule H/W & S/W",
-      three: "Global Low-Carbon & Carbon Credits Platform",
+      one: "Our Service",
+      two: "Methane Capsule",
+      three: "Certification Platform",
     },
   },
   {

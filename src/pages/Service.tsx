@@ -37,8 +37,8 @@ function Service() {
               <Card
                 title="Cattle"
                 description="They stay in the stomach of cows and identify real-time methane concentrations and emissions"
-                src="cattle"
-                alt="White Cattle Silhouette"
+                src="white_cattle_gas"
+                alt="White Cattle with Green Gas"
                 textColor="text-white"
               />
               <div className="flex justify-center items-center text-6xl font-black text-lightGreen">
@@ -139,7 +139,7 @@ function Service() {
         <div className="w-full flex flex-col gap-16">
           <div>
             <h1 className="text-6xl font-semibold mb-2">
-              MeTech Service Platform
+              Certification Platform
             </h1>
             <p className="text-darkGray text-sm">
               Global Low-Carbon / Carbon Credits Certified Platform

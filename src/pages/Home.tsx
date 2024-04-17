@@ -169,13 +169,15 @@ function Home() {
             <div className="w-[80%] h-full flex flex-col justify-between gap-5 p-5">
               <div className="text-darkGray font-semibold">Latest News</div>
               <div className="h-[90%] grid grid-cols-2 gap-4">
-                <News />
+                <News isReleasePage={false} width="w-3/4" textSize="text-xl" />
               </div>
               <Button
                 onClick={() => navigate("/releases")}
                 bg="bg-darkGreen"
                 hoverTextColor="hover:text-lightGreen"
                 alignItem="self-end"
+                flex="flex"
+                flexCol="flex-col"
               >
                 All Releases
               </Button>
