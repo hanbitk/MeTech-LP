@@ -6,8 +6,8 @@ function About() {
   return (
     <main>
       {/* About Hero */}
-      <div className="w-full h-[520px] bg-aboutHero bg-cover bg-no-repeat">
-        <h1 className="text-4xl text-offWhite font-extrabold pt-32 pl-16">
+      <div className="w-full h-[520px] bg-aboutHero bg-cover bg-no-repeat bg-bottom">
+        <h1 className="text-4xl text-white font-extrabold pt-28 pl-16">
           MeTech’s Leading the Charge in Livestock <br /> Sustainability with
           Methane Capsule
         </h1>
@@ -40,7 +40,7 @@ function About() {
       </section>
 
       {/* About Us */}
-      <section className="h-[500px] bg-offWhite p-20">
+      <section className="h-[500px] bg-offWhite items-start p-20">
         <div className="h-full flex flex-col gap-10">
           <h1 className="text-4xl text-black font-bold">About Us</h1>
           <div className="h-full flex flex-col justify-around text-darkGray">
@@ -70,7 +70,7 @@ function About() {
       </section>
 
       {/* Our Mission */}
-      <section className="h-[820px] bg-ligthGray p-20">
+      <section className="h-[820px] bg-ligthGray items-start p-20">
         <div className="h-full flex flex-col gap-10">
           <h1 className="text-4xl text-black font-bold">Our Mission</h1>
           <div className="h-[85%] flex justify-between">

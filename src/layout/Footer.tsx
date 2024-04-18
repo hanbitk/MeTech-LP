@@ -9,8 +9,7 @@ function Footer() {
       <div className="w-full h-full flex flex-col justify-between">
         {/* Company Location */}
         <div className="flex h-full gap-2 py-6">
-          <div className="border-lightGreen border-r-2 w-[30%] flex flex-col justify-center gap-10">
-            {/* Removed USA Location Data - justify-between */}
+          <div className="border-lightGreen border-r-2 w-[30%] flex flex-col justify-between">
             <Location />
           </div>
           {/* Footer NavBar */}

@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import News from "../components/News";
 import BlackCattle from "../assets/section/Black_cattle.png";
 import BlackCar from "../assets/section/Black_car.png";
-import CattleMethane from "../assets/section/cattle_methane_process.png";
+import CattleMethane from "../assets/section/cattle_methane_process_1.png";
 import GreenLogo from "../assets/section/green-logo.svg";
 import Capsule from "../assets/section/Methane_capsule.png";
 import Partners from "../components/Partners";
@@ -29,7 +29,7 @@ function Home() {
             </h2>
           </div>
           <div className="my-6">
-            <YoutubeEmbed embedId="XjcQWgV35d0" />
+            <YoutubeEmbed embedId="AxRxdq-JaRE" />
           </div>
           <div className="w-full flex flex-col justify-around items-center">
             <div className="h-[80%] flex justify-center gap-16 items-center">
@@ -57,10 +57,10 @@ function Home() {
       {/* Section 1.1.2 - Methane Gas Emissions */}
       <section>
         <div className="w-full bg-grass bg-cover bg-no-repeat flex items-center p-20 text-white">
-          <div className="w-[45%] flex flex-col items-center">
-            <div className="w-[350px] h-[250px]">
+          <div className="w-[45%] flex flex-col items-center gap-2">
+            <div className="w-[350px] h-[200px]">
               <img
-                className="object-cover"
+                className="w-full h-full object-contain rounded-md"
                 src={CattleMethane}
                 alt="Cattle Methane Process"
               />
@@ -70,7 +70,7 @@ function Home() {
               Ruminants Using Feed Additives: A Review
             </p>
           </div>
-          <div className="w-[50%] flex flex-col items-center p-2">
+          <div className="w-[50%] flex flex-col gap-8">
             <p>
               Livestock are a major contributor to greenhouse gas emissions,
               responsible for a staggering 18% of the total. Methane, a
@@ -78,7 +78,7 @@ function Home() {
               than carbon dioxide in warming the planet over a 20-year period,
               according to the UN Economic Commission.
             </p>
-            <br />
+            {/* <br /> */}
             <p>
               With approximately 1.5 billion cows globally, each capable of
               emitting up to 500 liters (132 gallons) of methane daily, the
@@ -214,7 +214,7 @@ function Home() {
               <iframe
                 className="rounded-xl grayscale saturate-50"
                 title="MeTechHoldings Inc., Co."
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.804666949623!2d127.0562444753837!3d37.51252492722422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca46b26c1760b%3A0x98214780621041f2!2s524%20Bongeunsa-ro%2C%20Gangnam-gu%2C%20Seoul!5e0!3m2!1spt-BR!2skr!4v1712569993043!5m2!1spt-BR!2skr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.8046669496307!2d127.05624447538376!3d37.51252492722422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca50070ffe7d9%3A0xa21b40cc1d2d74c7!2sMeTech%20Holdings!5e0!3m2!1spt-BR!2skr!4v1713418705815!5m2!1spt-BR!2skr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

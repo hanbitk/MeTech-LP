@@ -12,6 +12,14 @@ function FooterNavBar() {
             <h2 className="text-lightGreen font-semibold cursor-pointer">
               <NavLink to={tab.to}>{tab.title}</NavLink>
             </h2>
+            {tab.isContactNav && (
+              <div className="flex">
+                <img src={Mail} alt="White Email Icon" />
+                <p className="text-white text-sm font-light pl-2 cursor-pointer">
+                  <NavLink to="mailto:sales@metech.io">sales@metech.io</NavLink>
+                </p>
+              </div>
+            )}
             <ul className="text-white text-sm font-light">
               <li>{tab.description?.one}</li>
               <li>{tab.description?.two}</li>
@@ -20,17 +28,6 @@ function FooterNavBar() {
           </div>
         );
       })}
-      <div>
-        <h2 className="text-lightGreen font-semibold cursor-pointer">
-          Contact
-        </h2>
-        <div className="flex">
-          <img src={Mail} alt="White Email Icon" />
-          <p className="text-white text-sm font-light pl-2 cursor-pointer">
-            <NavLink to="mailto:sales@metech.io">sales@metech.io</NavLink>
-          </p>
-        </div>
-      </div>
     </>
   );
 }

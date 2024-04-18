@@ -82,7 +82,7 @@ function Service() {
             </div>
           </div>
           {/* Methane Capsule Software */}
-          <div className="flex flex-col gap-2">
+          <div className="h-[80%] flex flex-col gap-2">
             <h2 className="font-semibold text-darkGray">Software</h2>
             <div className="flex justify-between">
               <CapsuleSoftwareImg

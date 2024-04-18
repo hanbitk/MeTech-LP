@@ -36,10 +36,11 @@ export const LOCATION = [
     country: "Singapore",
     address: "10 Anson Road #34-10 International Plaza, 079903, Singapore",
   },
-  // {
-  //   country: "United States",
-  //   address: "524, Bongeunsa-ro, Gangnam-gu, Seoul, 06164, Republic of Korea",
-  // },
+  {
+    country: "Brazil",
+    address:
+      "Rua Norma Pieruccini Giannotti, 665, Apt 101A, Várzea da Barra Funda, 01137-010, São Paulo, Brazil",
+  },
 ];
 
 export const FOOTER_NAVBAR_TABS = [
@@ -67,6 +68,11 @@ export const FOOTER_NAVBAR_TABS = [
     description: {
       one: "Latest News",
     },
+  },
+  {
+    title: "Contact",
+    to: "/contact",
+    isContactNav: true,
   },
 ];
 
