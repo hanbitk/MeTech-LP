@@ -1,13 +1,11 @@
 import React from "react";
-import CattleVideo from "../assets/hero/hero-bg2.mp4";
-import CattleVideo2 from "../assets/hero/hero-bg3.mp4";
-import test from "../assets/hero/catte_farm.mp4";
+import CattleVideo from "../assets/hero/hero-bg.mp4";
 
 function Hero() {
   return (
     <div className="h-screen w-full text-white text-center">
       <video
-        src={test}
+        src={CattleVideo}
         autoPlay
         loop
         muted
