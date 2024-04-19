@@ -6,7 +6,7 @@ import Button from "../components/Button";
 import News from "../components/News";
 import BlackCattle from "../assets/section/Black_cattle.png";
 import BlackCar from "../assets/section/Black_car.png";
-import CattleMethane from "../assets/section/cattle_methane_process_1.png";
+import CattleMethane from "../assets/section/catte_methane_process.png";
 import GreenLogo from "../assets/section/green-logo.svg";
 import Capsule from "../assets/section/Methane_capsule.png";
 import Partners from "../components/Partners";
